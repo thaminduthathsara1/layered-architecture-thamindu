@@ -8,7 +8,8 @@ public class CustomerDTO implements Serializable {
     private String name;
     private String address;
 
-    public CustomerDTO() {
+    public CustomerDTO(String id) {
+        this.id=id;
     }
 
     public CustomerDTO(String id, String name, String address) {
